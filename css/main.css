@@ -1,12 +1,14 @@
+
 @charset "utf-8";
 /* CSS Document */
 
-/*utility classes*/
+
 
 .hidden
 {
 	display: none;
 }
+
 
 /* General rules - scales images, videos to size of container */
 img, embed, object, video {
@@ -28,4 +30,76 @@ img {
 }
 
 
+
+#siteContainer
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#hamMenu
+{
+	background-color: black;
+	height: 30px;
+	width: 40px;
+	margin-left: auto;
+}
+
+#logo
+{
+	background-color: black;
+	height: 140px;
+	width: 140px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+#welcome
+{
+	background-color: black;
+	height: 285px;
+	display: block;
+  	margin: 0 auto;
+  	max-width: 1200px;
+  	margin-bottom: 10px;
+}
+
+#prodBanner
+{
+	background-color: black;
+	height: 25px;
+	display: block;
+	max-width: 1200px;
+	margin-bottom: 10px;
+}
+
+#smallCon
+{
+	max-width: 300px;
+	margin: 0 auto;
+}
+#meeting
+{
+	background-color: black;
+	height: 175.24px;
+	margin-bottom: 10px;
+}
+
+
+
+#prod
+{
+	height: 195px;
+	background-color: black;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#prodText
+{
+	height: 115px;
+	background-color: black;
+	margin-bottom: 20px;
+}
 
