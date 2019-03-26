@@ -1,9 +1,35 @@
-@charset "UTF-8";
+
+@charset "utf-8";
+/* CSS Document */
+
+
 
 .hidden
 {
 	display: none;
 }
+
+
+/* General rules - scales images, videos to size of container */
+img, embed, object, video {
+  max-width: 100%; }
+  
+/*switch box model*/
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/*Fix for scaling of images IE*/
+img {
+  -ms-interpolation-mode: bicubic; 
+}
+
+
 
 #siteContainer
 {
@@ -76,3 +102,4 @@
 	background-color: black;
 	margin-bottom: 20px;
 }
+
